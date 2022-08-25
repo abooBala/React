@@ -1,27 +1,20 @@
 
 
-function SimpleComponentOne() {
+function Navbar() {
     return(
-        <p>Why React?</p>
+        <nav>
+            <h1>Aboo's Website</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     )       
 }
 
-function SimpleComponentTwo() {
-    return(
-        <ul>Just a few:
-            <li>Flexible</li>
-            <li>Easily Create SPA for devices</li>
-            <li>Create large web applications that can change data, without reloading the page.</li>
-            <li>And more...</li>
-        </ul>
-    )
-}
-
 ReactDOM.render(
-
-    <div>
-        <SimpleComponentOne />
-        <SimpleComponentTwo />
-    </div>
+    
+        <Navbar />
     
     , document.getElementById("root"));
