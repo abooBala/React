@@ -1,1 +1,0 @@
-ReactDOM.render(<h1>Humble beginnings</h1>, document.getElementById("root"));
