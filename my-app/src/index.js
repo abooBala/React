@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Header from './Header.js';
-import MainContent from './MainContent.js';
+import './Portfolio.css';
+import BusinessCard from './BusinessCard.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(  
   <>
-    <Header />  
-    <MainContent />
+    <BusinessCard />
   </>
 );
 
