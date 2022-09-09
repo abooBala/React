@@ -28,6 +28,14 @@ section {
     padding: 1.25rem;
 }
 
+.gray {
+    color: #918E9B;
+}
+
+.m-0 {
+    margin: 0;
+}
+
 .App--hero {
     display: flex;
     flex-direction: column;
@@ -49,3 +57,26 @@ section {
     line-height: 110%;
 }
 
+.Card {
+    width: 11rem;
+    font-size: 0.75rem;
+}
+
+.Card--image {
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+.Card--stats {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.Card--star {
+    height: 14px;
+}
+
+.Card--description {
+    padding-block: 0.5rem;
+}

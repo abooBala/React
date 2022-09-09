@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Portfolio.css';
-import BusinessCard from './BusinessCard.js';
-import reportWebVitals from './reportWebVitals';
+import './AirbnbExperience.css';
+import AirbnbExperienceNavbar from './AirbnbExperienceNavbar.js';
+import Card from './Card.js'
+import AirbnbExperienceHero from './AirbnbExperienceHero.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(  
   <>
-    <BusinessCard />
+    <AirbnbExperienceNavbar />
+    <AirbnbExperienceHero />
+    <Card />
   </>
 );
 
