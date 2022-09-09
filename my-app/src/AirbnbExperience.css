@@ -57,6 +57,10 @@ section {
     line-height: 110%;
 }
 
+.Cards {
+    display: flex;
+}
+
 .Card {
     width: 11rem;
     font-size: 0.75rem;
