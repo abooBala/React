@@ -5,6 +5,7 @@ import AirbnbExperienceNavbar from './AirbnbExperienceNavbar.js';
 import AirbnbExperienceHero from './AirbnbExperienceHero.js'
 import data from './data.js'
 import Card from './Card.js'
+import LearnStates from './LearnStates.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const cards = data.map(item => {
@@ -24,6 +25,7 @@ root.render(
       <div className='Cards'>
         {cards}                
       </div>
+      <LearnStates/>
     </main>
   </> 
 );
